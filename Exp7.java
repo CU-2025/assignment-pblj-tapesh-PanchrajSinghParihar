@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class Exp7 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection cc = DriverManager.getConnection("jdbc:mysql://localhost:3306/2b", "root", "bavish82");
+        Connection cc = DriverManager.getConnection("jdbc:mysql://localhost:3306/2b", "root", "Panchraj");
         System.out.println("Connection established");
         Statement st = cc.createStatement();
         System.out.println("Database selected");
